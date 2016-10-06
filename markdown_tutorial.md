@@ -67,7 +67,7 @@ Markdown的语法非常的简单，基本语法如下：
 ### 6.图片  
 直接引用图片:
 
-	![Alt text](/path/to/img.jpg)  
+	![图片名字，可以为空](/path/to/img.jpg)  
 	![Alt text](/path/to/img.jpg "Optional title")  
 
 参考式的图片:
@@ -75,7 +75,12 @@ Markdown的语法非常的简单，基本语法如下：
 	![alt text][1]  
 	[1]: /users/blog/img/dog.jpg
 
-
+说明：设置图片大小和居中的两种方法  
+1）使用img标签
+`<img src="/image/xxx.png" width = "300" height = "200" alt="图片名称" align=center />`
+2）使用支持图片大小更改操作的 Mou 编辑器  
+`![](./pic/pic1_50.png =100x100)`
+注意： =前面有一个空格，这里大小就是100x100不是100*100
 ### 7.代码
 一行代码，比如shell命令可以用"\`代码\`"  
 `printf()`  
