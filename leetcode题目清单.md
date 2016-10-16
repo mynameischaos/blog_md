@@ -12,6 +12,7 @@ categories: 算法
 
 * Two Sum
 * Palindrome Number
+* Container With Most Water (数学思想)
 
 ### 2.基本数据结构
 ### 3.字符串操作
@@ -20,6 +21,7 @@ categories: 算法
 * ZigZag Conversion
 * Reverse Integer(整数与字符串之间的转换)
 * String to Integer (atoi)(字符串转整数)
+* Longest Common Prefix(不同于最长公共序列)
 
 ### 4.动态规划
 
